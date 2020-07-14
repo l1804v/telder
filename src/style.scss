@@ -35,10 +35,10 @@ header {
 main {
     padding-top: 48px;
     padding-right: 124px;
-    padding-left: 500px; 
+    padding-left: 500px;
 }
 
-.uk-divider-small{
+.divider {
     margin-top: 32px;
     margin-bottom: 32px;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -82,7 +82,7 @@ main {
         text-decoration-color: rgba(0, 0, 0, 0.6);
     }
 }
-.linkTag {
+.tags {
     margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -105,5 +105,36 @@ main {
         }
     a:hover {
         background: rgba(0, 0, 0, 0.1);
+    }
+}
+@media (max-width: 1024px) {
+    header {
+        position: relative;
+        margin-top: 16px;
+        margin-left: 16px;
+        padding: 0;
+    }
+    main {
+        position: relative;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    header {
+        position: relative;
+        margin-top: 16px;
+        margin-left: 16px;
+        padding: 0;
+        
+
+    }
+    main {
+        position: relative;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 0;
     }
 }
